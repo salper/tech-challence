@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "resolveJsonModule": true
+  },
+  "extends": "@tsconfig/node20/tsconfig",
+  "include": ["./src/**/*", "./src/**/*.json"],
+  "lib": ["node"]
+}
